@@ -2,5 +2,7 @@ title: Test-Page
 description: My very own description
 show_downloads: false
 remote_theme: pages-themes/slate@v0.2.0
+github:
+  is_project_page: false
 plugins:
 - jekyll-remote-theme
