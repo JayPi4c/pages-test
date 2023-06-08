@@ -16,4 +16,4 @@ You can find the source code for Jekyll at GitHub:
 [jekyll-organization]: https://github.com/jekyll
 
 
-You can get back to the block [here](/pages-test/).
+You can get back to the block [here]({{ site.baseurl }}/).

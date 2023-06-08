@@ -1,14 +1,15 @@
 ---
 layout: default
+title: Post Overview
 ---
 
-## Welcome to anther page
+## Welcome to the post overview!
 
-list of all posts:
+Here you can find a list of all posts:
 {% for post in site.posts %}
   <article>
     <h4>
-      <a href="{{ post.url }}">
+      <a href="{{ site.baseurl }}{{ post.url }}">
         {{ post.title }}
       </a>
     </h4>
@@ -20,4 +21,4 @@ list of all posts:
 {% endfor %}
 
 
-[back](../)
+Back to [Home]({{site.baseurl}}/).
