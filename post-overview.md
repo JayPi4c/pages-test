@@ -20,5 +20,4 @@ Here you can find a list of all posts:
   <hr>
 {% endfor %}
 
-
-Back to [Home]({{site.baseurl}}/).
+Back [Home]({{site.baseurl}}/).
